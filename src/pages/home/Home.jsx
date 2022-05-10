@@ -18,8 +18,8 @@ const Home = () => {
         { headerName: 'Body',   field: 'body',    width: 300 },
         {
             headerName: "Actions", field: "id", cellRendererFramework: (params) => <div>
-              <Button variant="outlined" color="primary" onClick={() => handleUpdate(params.data)}>Update</Button>
-              <Button variant="outlined" color="secondary" onClick={() => handleDelete(params.data)}>Delete</Button>
+              <Button className="" variant="outlined" color="primary" onClick={() => handleUpdate(params.data)}>Update</Button>
+              <Button className="dBtn" variant="outlined" color="secondary" onClick={() => handleDelete(params.data)}>Delete</Button>
             </div>
           },
       ];

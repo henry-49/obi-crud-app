@@ -7,6 +7,10 @@
     margin-right: 30px;
 }
 
+button.dBtn{
+    margin-left: 8px;
+}
+
 .ag-theme-alpine {
     margin-left: 30px;
 }
