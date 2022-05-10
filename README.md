@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Getting Started with Obi Crud App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone the project [Clone](https://github.com/henry-49/obi-crud-app).
+
+Cd to the project directory, run
+
+### `npm install `
 
 ## Available Scripts
 
