@@ -1,6 +1,6 @@
 # Getting Started with Obi Crud App
 
-Clone the project [Clone](https://github.com/henry-49/obi-crud-app).
+Clone the project [obi-crud-app](https://github.com/henry-49/obi-crud-app).
 
 Cd to the project directory, run
 
