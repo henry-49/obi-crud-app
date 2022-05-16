@@ -8,4 +8,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 14
-      - run: node -v # can alo run ls
+      - name: Build the project
+        run: yarn build
+      - name: Setup finish
+        run: echo "hurray!"
