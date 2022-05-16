@@ -25,7 +25,7 @@ const Home = () => {
       ];
 
       const onGridReady = (params) => {
-        setGridApi(params);
+        setGridApi(gridApi.params);
       }
 
       const defaultColDef = {
