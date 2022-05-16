@@ -5,4 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: # steps of arrays to be run
       - uses: actions/checkout@v2  #clone current running dirctory
-      - run: tree # can alo run ls
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - run: node -v # can alo run ls
